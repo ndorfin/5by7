@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>Output characters</title>
+	<style>
+	.word {display:block; float:left;}
+		.character {display:block; font-size:10px; line-height:1; font-family:Courier; float:left; width:50px; margin:0 5px; word-wrap:break-word;}
+			.character i,
+			.character b {display:block; width:10px; height:10px; float:left;}
+			.character b {background:#000;}
+			.character i {background:#fff;}
+	</style>
+	<h1 class="5by7">The quick brown fox jumps over the lazy dog.</h1>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	if (typeof jQuery == 'undefined'){
+	    document.write(unescape("%3Cscript src='js/lib/jquery-1.6.1.min.js'%3E%3C/script%3E"));
+	}
+	</script>
+	<script src="js/characters_compressed.js"></script>
+	<script src="js/5by7.js"></script>
