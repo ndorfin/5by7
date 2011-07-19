@@ -44,7 +44,7 @@ render_pixel = function(pixel){
 
 /* init */
 $(document).ready(function(){
-	base_string = $('.5by7').text();
+	base_string = $('.decorate_5by7').text();
 	string_in_words = [];
 	string_in_words = base_string.split(" ");
 	for (wi=0; wi<string_in_words.length; wi++){
@@ -60,5 +60,5 @@ $(document).ready(function(){
 		}
 		new_string += "</span>";
 	}
-	$('.5by7').html(new_string);
+	$('.decorate_5by7').html(new_string);
 });
